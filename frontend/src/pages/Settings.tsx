@@ -3,7 +3,7 @@ import { PageHeader } from '../components/PageHeader';
 import { useData } from '../context/DataContext';
 import { useAuth } from '../context/AuthContext';
 
-const CURRENCIES = ['MAD', 'EUR', 'USD', 'GBP', 'CAD'];
+const CURRENCIES = ['MAD', 'EUR', 'USD', 'GBP', 'CAD','XAF'];
 
 export function Settings() {
   const { settings, saveSettings } = useData();
