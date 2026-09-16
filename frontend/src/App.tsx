@@ -23,8 +23,7 @@ export default function App() {
                 <ProtectedRoute>
                   <Layout />
                 </ProtectedRoute>
-              }
-            >
+              } >
               <Route path="/" element={<Dashboard />} />
               <Route path="/depenses" element={<Expenses />} />
               <Route path="/revenus" element={<Income />} />
